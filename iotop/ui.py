@@ -540,6 +540,7 @@ sorting order, o to toggle the --only option, p to toggle the --processes
 option, a to toggle the --accumulated option, i to change I/O priority, q to
 quit, any other key to force a refresh.''' % sys.argv[0]
 
+
 def main():
     try:
         locale.setlocale(locale.LC_ALL, '')
